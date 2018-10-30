@@ -27,6 +27,7 @@ class Stack(object):
     # 把栈顶元素丢出去
     def pop(self, item):
         return self.items.pop()
-    # 展示栈
-    def show(self):
+
+    # 返回整个栈
+    def  all(self):
         return self.items
